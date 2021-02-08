@@ -23,13 +23,13 @@ info  - Creating an optimized production build
 Failed to compile.
 
 ./lib/hello.worker.js
-TypeError: The 'compilation' argument must be an instance of Compilation
+TypeError: Cannot read property 'version' of undefined
 
 
 > Build error occurred
 Error: > Build failed because of webpack errors
     at /Users/ramirosilveyra/dev/personal/bug-repro-next-w5-inline-worker/node_modules/next/dist/build/index.js:15:918
-    at async /Users/ramirosilveyra/dev/personal/bug-repro-next-w5-inline-worker/node_modules/next/dist/build/tracer.js:1:1441
+    at async /Users/ramirosilveyra/dev/personal/bug-repro-next-w5-inline-worker/node_modules/next/dist/build/tracer.js:1:1450
 error Command failed with exit code 1.
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 ```
